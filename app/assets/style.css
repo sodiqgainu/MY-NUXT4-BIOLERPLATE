@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+	body {
+		@apply  bg-white min-h-screen cursor-none ;
+	}
+
+	* {
+		@apply transition-colors duration-200 cursor-none;
+		
+	  }
+	
+      .dark{
+       @apply bg-black text-white
+    }
+}
+
+*{
+    transition: all ease-in-out 0.2s;
+}
+
+
+
